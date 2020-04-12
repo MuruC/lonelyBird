@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#Igonre low poly models
+mapDesign3/Assets/lowPolyResource/
+
+#Ignore unnecessary folders
+mapDesign3/Logs/
+mapDesign3/Library/
+mapDesign3/Temp/

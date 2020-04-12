@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1627828735712786940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1627828735712786938}
+  - component: {fileID: 1627828735712786941}
+  m_Layer: 0
+  m_Name: KeyboardMouseInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1627828735712786938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627828735712786940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627828735712786941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627828735712786940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4902b16b3ee26444fade59b92a87ddd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputAxis0Name: CamOrbitMouseX
+  PropagateInputAxis0:
+  - {fileID: 11400000, guid: f4945ca4de16c524d8746876a4a97d95, type: 2}
+  InputAxis1Name: CamOrbitMouseY
+  PropagateInputAxis1:
+  - {fileID: 11400000, guid: 6b8ea636a1fe5a04e860dd6f85201b7d, type: 2}
+  InputAxis2Name: RollKeyboard
+  PropagateInputAxis2:
+  - {fileID: 11400000, guid: fa64c3e85c0170645a17f2e85674937d, type: 2}
+  InputAxis3Name: PitchKeyboard
+  PropagateInputAxis3:
+  - {fileID: 11400000, guid: af68e80d4d0ba09429d07b3aa6f9b41e, type: 2}
+  InputButton0Name: Flap
+  PropagateInputButton0:
+  - {fileID: 11400000, guid: f9b88c11dba072e43b0a4b5bacddb262, type: 2}
+  InputButton1Name: Interact
+  PropagateInputButton1:
+  - {fileID: 11400000, guid: f99881a9837665f4ca694f8094a719e7, type: 2}
+  InputButton2Name: 
+  PropagateInputButton2: []
+  InputButton3Name: 
+  PropagateInputButton3: []
