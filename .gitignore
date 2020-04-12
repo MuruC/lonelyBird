@@ -63,5 +63,5 @@ mapDesign3/Assets/lowPolyResource/
 
 #Ignore unnecessary folders
 mapDesign3/Logs/
-mapDesign3/Library/
 mapDesign3/Temp/
+mapDesign3/Library/metadata
